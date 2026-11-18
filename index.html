@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071e36" />
+    <meta
+      name="description"
+      content="WASHERSERVICE FIX — ремонт стиральных машин в Алматы, Казахстан. Ремонт на дому, диагностика неисправностей, насосов, ТЭНов, подшипников, модулей управления. Выезд и диагностика 5 000 ₸."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="WASHERSERVICE FIX — ремонт стиральных машин в Алматы"
+    />
+    <meta
+      property="og:description"
+      content="Ремонт стиральных машин в Алматы, Казахстан. Выезд и диагностика — 5 000 ₸. Свяжитесь с мастером в WhatsApp."
+    />
+    <title>
+      WASHERSERVICE FIX — ремонт стиральных машин в Алматы, Казахстан
+    </title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <script defer src="assets/js/config.js"></script>
+    <script defer src="assets/js/data.js"></script>
+    <script defer src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <svg
+      class="svg-sprite"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <path
+          d="M20.4 11.8a8.5 8.5 0 0 1-12.6 7.4L3 20.7l1.6-4.6a8.5 8.5 0 1 1 15.8-4.3Z"
+        />
+        <path
+          d="M8.7 8.1c-.3-.6-.6-.7-.9-.7-.3 0-.7.1-.9.4-.3.3-.9 1-.9 2.3s1 2.6 1.1 2.7c.2.2 2 3.2 4.9 4.1 2.4.7 3 .5 3.5.4.5-.1 1.6-.7 1.8-1.3.2-.6.2-1.1.1-1.3-.1-.2-.5-.3-1.1-.6l-1.7-.8c-.3-.2-.5-.2-.7.2-.2.3-.8 1-1 1.1-.2.1-.4.1-.7 0a7 7 0 0 1-2.1-1.3 7.5 7.5 0 0 1-1.5-1.9c-.2-.3 0-.5.1-.7l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4-.1-.6l-.7-1.7Z"
+        />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" />
+        <circle cx="12" cy="10" r="2.6" />
+      </symbol>
+      <symbol id="i-water" viewBox="0 0 24 24">
+        <path d="M12 2c3.6 5.2 7 8.6 7 12a7 7 0 0 1-14 0c0-3.4 3.4-6.8 7-12Z" />
+      </symbol>
+      <symbol id="i-spin" viewBox="0 0 24 24">
+        <path d="M20 8V3h-5M4 16v5h5" />
+        <path d="M5 9a8 8 0 0 1 14.2-3l.8 2M19 15A8 8 0 0 1 4.8 18L4 16" />
+      </symbol>
+      <symbol id="i-power" viewBox="0 0 24 24">
+        <path d="M12 2v10M7 5.8a9 9 0 1 0 10 0" />
+      </symbol>
+      <symbol id="i-volume" viewBox="0 0 24 24">
+        <path
+          d="m4 9 4 0 5-4v14l-5-4H4V9ZM17 9a5 5 0 0 1 0 6M20 6a9 9 0 0 1 0 12"
+        />
+      </symbol>
+      <symbol id="i-drops" viewBox="0 0 24 24">
+        <path
+          d="M7 3c1.9 2.8 3 4.2 3 6a3 3 0 0 1-6 0c0-1.8 1.1-3.2 3-6ZM17 12c2 2.6 4 5 4 7a4 4 0 0 1-8 0c0-2 2-4.4 4-7Z"
+        />
+      </symbol>
+      <symbol id="i-warning" viewBox="0 0 24 24">
+        <path
+          d="M10.3 4.2a2 2 0 0 1 3.4 0l8 13.8a2 2 0 0 1-1.7 3H4a2 2 0 0 1-1.7-3L10.3 4.2Z"
+        />
+        <path d="M12 9v5M12 17.7h.01" />
+      </symbol>
+      <symbol id="i-more" viewBox="0 0 24 24">
+        <circle cx="5" cy="12" r="1" />
+        <circle cx="12" cy="12" r="1" />
+        <circle cx="19" cy="12" r="1" />
+      </symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24">
+        <path d="M1.5 6h12v11h-12ZM13.5 10h4l3 4v3h-7ZM4 4h7" />
+        <circle cx="6" cy="18" r="2" />
+        <circle cx="17.5" cy="18" r="2" />
+      </symbol>
+      <symbol id="i-gear" viewBox="0 0 24 24">
+        <path
+          d="m9.8 2-.4 2.3-2.3 1-.9-1.9-2.8 2.8 1.9.9-1 2.3L2 9.8v4.4l2.3.4 1 2.3-1.9.9 2.8 2.8.9-1.9 2.3 1L9.8 22h4.4l.4-2.3 2.3-1 .9 1.9 2.8-2.8-1.9-.9 1-2.3 2.3-.4V9.8l-2.3-.4-1-2.3 1.9-.9-2.8-2.8-.9 1.9-2.3-1-.4-2.3Z"
+        />
+        <circle cx="12" cy="12" r="3.2" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="M12 2 20 5v7c0 5.3-3.4 8.3-8 10-4.6-1.7-8-4.7-8-10V5l8-3Z" />
+        <path d="m8.2 11.8 2.5 2.5 5.1-5.1" />
+      </symbol>
+      <symbol id="i-star" viewBox="0 0 24 24">
+        <path
+          d="m12 2 3 6 6.7 1-4.8 4.7 1.1 6.7L12 17.2 6 20.4l1.1-6.7L2.3 9l6.7-1L12 2Z"
+        />
+      </symbol>
+      <symbol id="i-diamond" viewBox="0 0 24 24">
+        <path d="M6 3h12l5 6-11 13L1 9l5-6ZM2 9h20M8 3l-2 6 6 13 6-13-2-6" />
+      </symbol>
+      <symbol id="i-bolt" viewBox="0 0 24 24">
+        <path d="m13 2-9 12h7l-1 8 10-13h-7V2Z" />
+      </symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="16" rx="2" />
+        <path d="M7 3v4M17 3v4M3 10h18M8 14h3M8 18h3" />
+      </symbol>
+      <symbol id="i-price" viewBox="0 0 24 24">
+        <path d="M3 12 12 3h8v8l-9 9a2 2 0 0 1-2.8 0L3 14.8A2 2 0 0 1 3 12Z" />
+        <circle cx="16.5" cy="7" r="1" />
+      </symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24">
+        <path
+          d="M20 11.5a8 8 0 0 1-8 8 8.8 8.8 0 0 1-3-.5L3 21l2-5.1a8 8 0 1 1 15-4.4Z"
+        />
+        <path d="M8 11.5h.1M12 11.5h.1M16 11.5h.1" />
+      </symbol>
+      <symbol id="i-wrench" viewBox="0 0 24 24">
+        <path
+          d="M21 6.3a6 6 0 0 1-7.9 7.9L6 21.3A2.5 2.5 0 1 1 2.7 18l7.1-7.1A6 6 0 0 1 17.7 3L14 6.7 17.3 10 21 6.3Z"
+        />
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 7v5l3.6 2" />
+      </symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24">
+        <path d="M12 5v14M5 12h14" />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path
+          d="M7 3h3l2 5-2 2c1.1 2.2 2.8 3.9 5 5l2-2 5 2v3c0 1.7-1.4 3-3 3A17 17 0 0 1 3 7c0-2.2 1-4 4-4Z"
+        />
+      </symbol>
+    </svg>
+    <a class="skip" href="#main">Перейти к содержимому</a>
+    <header class="site-header" id="top">
+      <div class="container nav-row">
+        <a class="brand" href="#top" aria-label="WASHERSERVICE FIX — главная">
+          <img
+            src="assets/icons/logo.svg"
+            width="50"
+            height="50"
+            alt=""
+            class="brand-img"
+          />
+          <span class="brand-words"
+            ><strong>WASHERSERVICE <em>FIX</em></strong
+            ><small>Ремонт стиральных машин</small></span
+          >
+        </a>
+        <nav class="nav-links" aria-label="Главное меню">
+          <a href="#services">Услуги</a><a href="#prices">Цены</a
+          ><a href="#advantages">Преимущества</a><a href="#reviews">Отзывы</a
+          ><a href="#faq">Вопросы</a>
+        </nav>
+        <div class="nav-end">
+          <span class="nav-location"
+            ><svg><use href="#i-pin"></use></svg>Алматы, Казахстан</span
+          >
+
+          <button
+            class="btn wa-btn top-wa"
+            data-wa="Здравствуйте! Нужен ремонт стиральной машины в Алматы."
+            type="button"
+          >
+            <svg>
+              <use href="#i-wa"></use>
+            </svg>
+            Написать в WhatsApp
+          </button>
+
+          <a href="tel:+77071114334" class="btn header-call-btn">
+            <svg>
+              <use href="#i-phone"></use>
+            </svg>
+            Позвонить
+          </a>
+        </div>
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menuToggle"
+          aria-controls="mobileNav"
+          aria-expanded="false"
+          aria-label="Открыть меню"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="mobile-menu" id="mobileNav" aria-label="Меню на телефоне">
+        <a href="#services">Услуги</a><a href="#prices">Цены</a
+        ><a href="#advantages">Преимущества</a><a href="#reviews">Отзывы</a
+        ><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <div class="hero-chip">
+              <svg><use href="#i-wrench"></use></svg> Ремонт стиральных машин в
+              Алматы
+            </div>
+            <h1>Сломалась<br /><span>стиральная машина?</span></h1>
+            <p class="hero-description">
+              Узнайте предварительную стоимость ремонта<br
+                class="desktop-only"
+              />
+              в WhatsApp уже сейчас.
+            </p>
+            <div class="hero-features">
+              <div>
+                <svg><use href="#i-bolt"></use></svg
+                ><span>Ремонт<br />на дому</span>
+              </div>
+              <div>
+                <svg><use href="#i-shield"></use></svg
+                ><span>Согласуем<br />стоимость</span>
+              </div>
+              <div>
+                <svg><use href="#i-calendar"></use></svg
+                ><span>Выезд<br />по Алматы</span>
+              </div>
+            </div>
+
+            <div class="hero-buttons">
+              <button
+                class="btn wa-btn hero-button"
+                data-wa="Здравствуйте! Хочу узнать стоимость ремонта."
+                type="button"
+              >
+                <svg><use href="#i-wa"></use></svg>
+                Узнать стоимость в WhatsApp
+              </button>
+
+              <a href="tel:+77071114334" class="btn call-btn">
+                <svg><use href="#i-phone"></use></svg>
+                Позвонить мастеру
+              </a>
+            </div>
+
+            <p class="hero-help">
+              <svg><use href="#i-chat"></use></svg> Напишите, что случилось с
+              машинкой, или отправьте фото ошибки.<br />Мастер подскажет
+              возможную причину и ориентировочную стоимость.
+            </p>
+          </div>
+          <div class="hero-picture">
+            <img
+              src="assets/images/washer-hero2.png"
+              alt="Современная стиральная машина"
+              fetchpriority="high"
+            /><span class="hero-picture-overlay"></span>
+          </div>
+        </div>
+      </section>
+      <section class="trust-wrap" aria-label="Условия обслуживания">
+        <div class="container trust-bar">
+          <div>
+            <svg><use href="#i-truck"></use></svg
+            ><strong
+              >Выезд по Алматы<small>И по согласованным адресам</small></strong
+            >
+          </div>
+          <div>
+            <svg><use href="#i-gear"></use></svg
+            ><strong
+              >Разные виды ремонта<small>Механика и электроника</small></strong
+            >
+          </div>
+          <div>
+            <svg><use href="#i-shield"></use></svg
+            ><strong>Согласование цены<small>До начала работ</small></strong>
+          </div>
+          <div>
+            <svg><use href="#i-star"></use></svg
+            ><strong>Проверка результата<small>После ремонта</small></strong>
+          </div>
+        </div>
+      </section>
+      <section class="problems section" id="symptoms">
+        <div class="container">
+          <h2>Что случилось с вашей машинкой?</h2>
+          <p class="section-sub">
+            Выберите проблему и сразу напишите мастеру в WhatsApp
+          </p>
+          <div class="problem-grid" id="problemGrid"></div>
+        </div>
+      </section>
+      <section class="advantages section" id="advantages">
+        <div class="container advantages-grid">
+          <div class="master-photo">
+            <img
+              src="assets/images/repair-master2.png"
+              loading="lazy"
+              alt="Иллюстрация мастера по ремонту стиральной машины"
+            /><span class="master-photo-note"
+              ><svg><use href="#i-shield"></use></svg>Ремонт стиральных
+              машин</span
+            >
+          </div>
+          <div class="advantages-content">
+            <h2>Почему нам доверяют?</h2>
+            <div class="advantage-points">
+              <div>
+                <svg><use href="#i-diamond"></use></svg>
+                <p>
+                  <strong>Понятные цены</strong
+                  ><small>Без неожиданных работ</small>
+                </p>
+              </div>
+              <div>
+                <svg><use href="#i-bolt"></use></svg>
+                <p>
+                  <strong>Поиск причины</strong
+                  ><small>Диагностика неисправности</small>
+                </p>
+              </div>
+              <div>
+                <svg><use href="#i-shield"></use></svg>
+                <p>
+                  <strong>Проверка работы</strong
+                  ><small>После выполнения ремонта</small>
+                </p>
+              </div>
+              <div>
+                <svg><use href="#i-pin"></use></svg>
+                <p>
+                  <strong>Выезд на дом</strong><small>Алматы, Казахстан</small>
+                </p>
+              </div>
+              <div>
+                <svg><use href="#i-gear"></use></svg>
+                <p>
+                  <strong>Подбор запчастей</strong
+                  ><small>С учётом модели машины</small>
+                </p>
+              </div>
+              <div>
+                <svg><use href="#i-calendar"></use></svg>
+                <p>
+                  <strong>Запись на выезд</strong
+                  ><small>В согласованное время</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prices-section section" id="prices">
+        <div class="container pricing-layout">
+          <div class="price-card">
+            <div class="price-heading">
+              <svg><use href="#i-price"></use></svg>
+              <h2>Сколько стоит ремонт?</h2>
+            </div>
+            <div class="cost-line">
+              <span>Выезд и диагностика на дому</span><strong>5 000 ₸</strong>
+            </div>
+            <div class="cost-line">
+              <span>Ремонт (зависит от неисправности)</span
+              ><strong>После диагностики</strong>
+            </div>
+            <p class="price-info">
+              <span>ⓘ</span> Точную стоимость мастер назовёт после диагностики —
+              и согласует до начала работ.
+            </p>
+            <button
+              class="link-more"
+              type="button"
+              id="toggleServices"
+              aria-expanded="false"
+              aria-controls="serviceDetails"
+            >
+              Посмотреть все виды ремонта <span>↓</span>
+            </button>
+          </div>
+          <div class="question-card">
+            <img
+              class="whatsapp-image"
+              src="assets/images/whatsapp-device2.png"
+              alt="Пример сообщения о поломке в WhatsApp"
+              loading="lazy"
+            />
+            <div class="question-copy">
+              <h2>Не знаете, что сломалось?</h2>
+              <p>
+                Отправьте в WhatsApp фото или короткое видео неисправности.
+                Поможем разобраться и подскажем ориентировочную стоимость.
+              </p>
+              <button
+                class="btn wa-btn"
+                data-wa="Здравствуйте! Хочу отправить фото или видео неисправности стиральной машины."
+                type="button"
+              >
+                <svg><use href="#i-wa"></use></svg> Написать мастеру
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="service-accordion" id="serviceDetails" hidden>
+            <span id="services" aria-hidden="true"></span>
+            <div class="catalog-head">
+              <h3>Все виды ремонта стиральных машин</h3>
+              <p>
+                Уточните возможность выполнения конкретных работ для вашей
+                модели.
+              </p>
+            </div>
+            <div class="service-grid" id="serviceGrid"></div>
+          </div>
+        </div>
+      </section>
+      <section class="steps section" id="steps">
+        <div class="container">
+          <h2>Три простых шага до исправной стиральной машины</h2>
+          <div class="steps-grid">
+            <div class="step-card">
+              <span class="step-number">1</span
+              ><svg><use href="#i-chat"></use></svg>
+              <div>
+                <strong>Оставьте заявку</strong>
+                <p>Напишите в WhatsApp и опишите проблему</p>
+              </div>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step-card">
+              <span class="step-number">2</span
+              ><svg><use href="#i-truck"></use></svg>
+              <div>
+                <strong>Мастер приедет</strong>
+                <p>В согласованное время и проверит технику</p>
+              </div>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step-card">
+              <span class="step-number">3</span
+              ><svg><use href="#i-wrench"></use></svg>
+              <div>
+                <strong>Ремонт и проверка</strong>
+                <p>Устранение неисправности после согласования</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews section" id="reviews">
+        <div class="container reviews-row">
+          <div class="reviews-intro">
+            <small>ОТЗЫВЫ КЛИЕНТОВ</small>
+            <h2>
+              Более 500 <br />довольных <br />
+              клиентов
+            </h2>
+            <div class="small-stars">★★★★★</div>
+          </div>
+
+          <article class="review-card">
+            <div class="review-author">
+              <img
+                src="assets/images/avatar.png"
+                alt="Аватар клиента"
+                class="review-avatar"
+              />
+
+              <div class="review-author-info">
+                <strong>Алия Т.</strong>
+                <small>Алматы</small>
+              </div>
+            </div>
+
+            <div class="review-stars">★★★★★</div>
+
+            <p class="review-text">
+              Быстро приехали, нашли причину, заменили насос. Машина работает
+              отлично, спасибо!
+            </p>
+          </article>
+
+          <article class="review-card">
+            <div class="review-author">
+              <img
+                src="assets/images/avatar.png"
+                alt="Аватар клиента"
+                class="review-avatar"
+              />
+
+              <div class="review-author-info">
+                <strong>Руслан М.</strong>
+                <small>Алматы</small>
+              </div>
+            </div>
+
+            <div class="review-stars">★★★★★</div>
+
+            <p class="review-text">
+              Честный и грамотный мастер. Объяснил, показал неисправность, цена
+              порадовала. Рекомендую!
+            </p>
+          </article>
+
+          <article class="review-card">
+            <div class="review-author">
+              <img
+                src="assets/images/avatar.png"
+                alt="Аватар клиента"
+                class="review-avatar"
+              />
+
+              <div class="review-author-info">
+                <strong>Жанна С.</strong>
+                <small>Алматы</small>
+              </div>
+            </div>
+
+            <div class="review-stars">★★★★★</div>
+
+            <p class="review-text">
+              Обращалась уже второй раз. Всё оперативно, вежливо и с гарантией.
+              Очень довольна!
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="faq-section section" id="faq">
+        <div class="container faq-layout">
+          <div class="faq-intro">
+            <h2>Частые вопросы<br />и ответы</h2>
+            <p>
+              Отвечаем на самые популярные вопросы о ремонте стиральных машин.
+            </p>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>
+                Сколько времени занимает ремонт?<svg>
+                  <use href="#i-plus"></use>
+                </svg>
+              </summary>
+              <p>
+                Зависит от неисправности и наличия деталей. После диагностики
+                мастер объяснит сроки.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Нужно ли заказывать диагностику отдельно?<svg>
+                  <use href="#i-plus"></use>
+                </svg>
+              </summary>
+              <p>
+                Выезд и диагностика стиральной машины — 5 000 ₸. Условия оплаты
+                ремонта согласовываются дополнительно.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Сколько стоит выезд мастера?<svg>
+                  <use href="#i-plus"></use>
+                </svg>
+              </summary>
+              <p>
+                Выезд и диагностика в Алматы — 5 000 ₸. Для адресов за пределами
+                города уточняйте условия заранее.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Есть ли гарантия на ремонт?<svg><use href="#i-plus"></use></svg>
+              </summary>
+              <p>
+                Гарантийные условия зависят от работы и деталей. Уточните их у
+                мастера до согласования ремонта.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Вы работаете в выходные?<svg><use href="#i-plus"></use></svg>
+              </summary>
+              <p>
+                Напишите нам в WhatsApp, чтобы уточнить ближайшее доступное
+                время выезда.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="final-contact">
+        <div class="container final-row" id="contacts">
+          <div class="final-logo">
+            <img src="assets/icons/logo.svg" alt="" width="58" height="58" />
+          </div>
+          <div class="final-copy">
+            <h2>Вернём вашей стиральной машине привычный ритм!</h2>
+            <p>
+              Напишите в WhatsApp — узнайте предварительную стоимость и
+              согласуйте выезд мастера в Алматы, Казахстан.
+            </p>
+          </div>
+          <div class="final-actions">
+            <button
+              class="btn wa-btn"
+              data-wa="Здравствуйте! Хочу заказать ремонт стиральной машины."
+              type="button"
+            >
+              <svg><use href="#i-wa"></use></svg>
+              Написать в WhatsApp
+            </button>
+            <a href="tel:+77071114334" class="btn call-btn">
+              <svg><use href="#i-phone"></use></svg>
+              Позвонить мастеру
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-site">
+      <div class="container footer-site__main">
+        <!-- Компания -->
+        <div class="footer-site__about">
+          <a href="#top" class="footer-site__brand">
+            <img src="assets/icons/logo.svg" alt="WASHERSERVICE FIX" />
+
+            <div>
+              <strong>WASHERSERVICE <em>FIX</em></strong>
+              <small>Ремонт стиральных машин</small>
+            </div>
+          </a>
+
+          <p>
+            Профессиональный ремонт стиральных машин на дому в Алматы.
+            Диагностика и устранение неисправностей.
+          </p>
+        </div>
+
+        <!-- Навигация -->
+        <nav class="footer-site__links" aria-label="Навигация в футере">
+          <h3>Навигация</h3>
+          <a href="#symptoms">Неисправности</a>
+          <a href="#prices">Цены</a>
+          <a href="#advantages">Преимущества</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">Вопросы и ответы</a>
+        </nav>
+
+        <!-- Контакты -->
+        <div class="footer-site__contacts">
+          <h3>Контакты</h3>
+
+          <p>
+            <svg><use href="#i-pin"></use></svg>
+            Алматы, Казахстан
+          </p>
+
+          <a href="tel:+77071114334">
+            <svg><use href="#i-phone"></use></svg>
+            +7 (707) 111-43-34
+          </a>
+
+          <p>Выезд и диагностика — 5 000 ₸</p>
+        </div>
+      </div>
+
+      <div class="container footer-site__bottom">
+        <span> © WASHERSERVICE FIX </span>
+
+        <span>Алматы, Казахстан</span>
+      </div>
+    </footer>
+    <div class="sticky-mobile">
+      <button
+        class="btn wa-btn"
+        data-wa="Здравствуйте! Нужен ремонт стиральной машины в Алматы."
+        type="button"
+      >
+        <svg><use href="#i-wa"></use></svg> Написать в WhatsApp
+      </button>
+    </div>
+    <dialog class="config-modal" id="configModal">
+      <button
+        type="button"
+        class="modal-close"
+        id="closeModal"
+        aria-label="Закрыть"
+      >
+        ×
+      </button>
+      <h2>Подключение WhatsApp</h2>
+      <p>
+        В демонстрационной версии номер компании ещё не указан. Добавьте его в
+        <code>assets/js/config.js</code>, тогда все кнопки будут открывать чат с
+        мастером.
+      </p>
+      <button type="button" class="btn wa-btn" id="closeModalAction">
+        Понятно
+      </button>
+    </dialog>
+  </body>
+</html>
+
+# WASHERSERVICE FIX — сайт ремонта стиральных машин
+
+Адаптивная HTML/CSS/JavaScript версия сайта по согласованному макету (тёмно-синий первый экран, голубые акценты, зелёный WhatsApp, карточки неисправностей, мастер, стоимость, этапы, отзывы, FAQ). Город: Алматы, Казахстан.
+
+## Структура
+
+- `index.html` — разметка всех разделов, текст и метатеги.
+- `assets/css/main.css` — основные стили компьютера.
+- `assets/css/responsive.css` — стили планшетов и телефонов.
+- `assets/js/config.js` — номер телефона/WhatsApp.
+- `assets/js/data.js` — каталог работ (редактируется без изменений HTML).
+- `assets/js/main.js` — кнопки, меню, раскрытие перечня услуг и FAQ.
+- `assets/images/` — изображения, подготовленные на основе согласованного пользователем визуального макета.
+- `assets/icons/` — SVG-логотип и favicon.
+
+## Перед публикацией
+
+1. Откройте `assets/js/config.js` и впишите настоящий номер WhatsApp в формате Казахстана **без плюса** (например, `77001234567` — только пример, не используйте как реальный). Укажите телефон таким же образом. Пока номер пуст, кнопка выдаёт понятное сообщение, а не отправляет на случайный номер.
+2. Проверьте перечень услуг в `assets/js/data.js` и условия диагностики (5 000 ₸).
+3. В макете не отображаются выдуманные отзывы и стаж. Перед запуском добавьте подлинные отзывы и фотографии выполненных работ, получив согласие на использование.
+4. Проверьте фактические условия гарантии, часы работы и территорию выезда перед добавлением рекламных обещаний.
+5. Добавьте домен и пиксели аналитики после выбора домена, только с учётом требований к cookies.
+
+## Хостинг
+
+Распакуйте **содержимое** архива в `httpdocs` нужного домена на Hoster.kz / Plesk. Сайт статический, WordPress и серверные базы не требуются.
+
+## Проверка
+
+Откройте `index.html` в браузере, проверьте адаптивность и меню. Для проверки WhatsApp сначала введите реальный номер в `assets/js/config.js`.
+
+## Дизайн
+
+Это работающая адаптивная **вёрстка по референсу**; не оригинал в Figma. Веб-страница меняет размеры в зависимости от экрана, поэтому абсолютное совпадение каждого пикселя на всех устройствах невозможно. Использованы отдельные фрагменты визуального референса как иллюстрации; их можно заменить на оригинальные фотографии и получить более высокую детализацию.
