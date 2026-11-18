@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="WASHERSERVICE FIX: стиральная машина и шестерёнка">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B3355"/><stop offset="1" stop-color="#05182B"/></linearGradient><linearGradient id="ice" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A9F1FF"/><stop offset="1" stop-color="#13A7E4"/></linearGradient></defs>
+  <rect x="1" y="1" width="94" height="94" rx="21" fill="url(#bg)"/>
+  <rect x="11" y="10" width="60" height="75" rx="10" fill="#102F4B" stroke="#F3FAFF" stroke-width="3.5"/>
+  <path d="M13 29H69" stroke="#D9ECF6" stroke-width="2.8"/>
+  <path d="M20 20H33" stroke="#B6DBEA" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="58" cy="20" r="3.2" fill="url(#ice)"/>
+  <circle cx="41" cy="55" r="22" fill="#051B2E" stroke="#EFF8FD" stroke-width="3"/>
+  <circle cx="41" cy="55" r="16.5" fill="#134466" stroke="url(#ice)" stroke-width="3.6"/>
+  <path d="M29 58C35 47 43 63 52 53" fill="none" stroke="#B4EEFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 65.44 50.88 L 67.85 50.28 L 68.03 45.60 L 73.97 45.60 L 74.15 50.28 L 76.56 50.88 L 76.56 50.88 L 78.87 51.81 L 81.76 48.13 L 86.57 51.62 L 83.97 55.51 L 85.56 57.42 L 85.56 57.42 L 86.88 59.53 L 91.39 58.25 L 93.23 63.90 L 88.83 65.52 L 89.00 68.00 L 89.00 68.00 L 88.83 70.48 L 93.23 72.10 L 91.39 77.75 L 86.88 76.47 L 85.56 78.58 L 85.56 78.58 L 83.97 80.49 L 86.57 84.38 L 81.76 87.87 L 78.87 84.19 L 76.56 85.12 L 76.56 85.12 L 74.15 85.72 L 73.97 90.40 L 68.03 90.40 L 67.85 85.72 L 65.44 85.12 L 65.44 85.12 L 63.13 84.19 L 60.24 87.87 L 55.43 84.38 L 58.03 80.49 L 56.44 78.58 L 56.44 78.58 L 55.12 76.47 L 50.61 77.75 L 48.77 72.10 L 53.17 70.48 L 53.00 68.00 L 53.00 68.00 L 53.17 65.52 L 48.77 63.90 L 50.61 58.25 L 55.12 59.53 L 56.44 57.42 L 56.44 57.42 L 58.03 55.51 L 55.43 51.62 L 60.24 48.13 L 63.13 51.81 L 65.44 50.88 Z" fill="#08273D" stroke="#48CFFA" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="71" cy="68" r="10" fill="#0A2E4C" stroke="#EAFBFF" stroke-width="3"/>
+  <circle cx="71" cy="68" r="3.5" fill="#4DD3F6"/>
+</svg>

@@ -1,0 +1,632 @@
+/* Адаптивные размеры для планшетов и телефонов */
+@media(max-width:1260px) {
+    .container {
+        width: min(1180px, calc(100% - 60px))
+    }
+
+    .nav-links {
+        gap: 17px
+    }
+
+    .nav-end {
+        gap: 13px
+    }
+
+    .nav-location {
+        font-size: 11px
+    }
+
+    .brand-words strong {
+        font-size: 18px
+    }
+
+    .hero h1 {
+        font-size: clamp(40px, 4.5vw, 58px)
+    }
+
+    .hero-photo-badge {
+        right: 6%
+    }
+
+    .problem-card span.wa-label {
+        font-size: 9px;
+        padding: 8px 3px
+    }
+
+    .problem-card strong {
+        font-size: 13px
+    }
+}
+
+@media(max-width:1050px) {
+    .site-header {
+        height: 70px
+    }
+
+    .nav-links {
+        display: none
+    }
+
+    .nav-end {
+        margin-left: auto
+    }
+
+    .menu-toggle {
+        display: block
+    }
+
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        padding: 12px 30px 20px;
+        background: #08243e;
+        box-shadow: 0 15px 25px #07182b33
+    }
+
+    .mobile-menu.open {
+        display: flex;
+        flex-direction: column
+    }
+
+    .mobile-menu a {
+        padding: 10px;
+        border-bottom: 1px solid #22405e;
+        font-size: 15px
+    }
+
+    .hero-layout {
+        grid-template-columns: 60% 40%
+    }
+
+    .hero-picture {
+        width: 53vw;
+        right: -30px
+    }
+
+    .hero-copy {
+        padding: 35px 0 66px
+    }
+
+    .hero h1 {
+        font-size: 48px
+    }
+
+    .hero-button {
+        min-width: 0
+    }
+
+    .problem-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px
+    }
+
+    .problem-card {
+        min-height: 152px
+    }
+
+    .advantages-grid {
+        grid-template-columns: 38% 1fr;
+        gap: 22px
+    }
+
+    .advantage-points {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .pricing-layout {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .question-copy {
+        width: 60%
+    }
+
+    .question-card {
+        padding: 18px
+    }
+
+    .review-card:last-child {
+        display: none
+    }
+
+    .reviews-row {
+        grid-template-columns: 1.05fr 1fr 1fr
+    }
+}
+
+@media(max-width:760px) {
+    .container {
+        width: calc(100% - 36px)
+    }
+
+    .site-header {
+        height: 66px
+    }
+
+    .brand-img {
+        width: 42px;
+        height: 42px
+    }
+
+    .brand-words strong {
+        font-size: 16px
+    }
+
+    .brand-words small {
+        font-size: 9px
+    }
+
+    .nav-end {
+        display: none
+    }
+
+    .mobile-menu {
+        top: 66px
+    }
+
+    .hero {
+        min-height: 0
+    }
+
+    .hero-layout {
+        display: flex;
+        flex-direction: column;
+        min-height: 0
+    }
+
+    .hero-copy {
+        padding: 31px 0 0;
+        width: 100%
+    }
+
+    .hero-chip {
+        font-size: 11px;
+        margin-bottom: 17px
+    }
+
+    .hero h1 {
+        font-size: clamp(35px, 8.4vw, 54px);
+        max-width: 560px
+    }
+
+    .hero-description {
+        font-size: 17px;
+        margin-bottom: 21px
+    }
+
+    .hero-features {
+        gap: 15px;
+        justify-content: space-between;
+        max-width: 480px;
+        margin-bottom: 22px
+    }
+
+    .hero-features div {
+        gap: 6px;
+        font-size: 11px
+    }
+
+    .hero-features svg {
+        height: 27px;
+        width: 27px
+    }
+
+    .hero-button {
+        width: 100%;
+        max-width: 530px;
+        font-size: 14px;
+        min-height: 55px;
+        padding-inline: 18px
+    }
+
+    .hero-help {
+        font-size: 11px;
+        max-width: 440px;
+        margin-top: 16px
+    }
+
+    .hero-picture {
+        width: calc(100% + 36px);
+        height: 270px;
+        position: relative;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        margin: 8px -18px 0;
+        overflow: hidden
+    }
+
+    .hero-picture img {
+        object-position: center 35%
+    }
+
+    .hero-picture:before {
+        display: none
+    }
+
+    .hero-photo-badge {
+        bottom: 24px;
+        right: 24px
+    }
+
+    .trust-wrap {
+        margin-top: 0
+    }
+
+    .trust-bar {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0;
+        padding: 10px;
+        border-radius: 0 0 17px 17px
+    }
+
+    .trust-bar>div {
+        justify-content: flex-start;
+        padding: 12px 6px
+    }
+
+    .trust-bar>div+div {
+        border-left: 0
+    }
+
+    .trust-bar>div:nth-child(even) {
+        border-left: 1px solid #e8eef3
+    }
+
+    .trust-bar>div:nth-child(n+3) {
+        border-top: 1px solid #e8eef3
+    }
+
+    .trust-bar svg {
+        width: 27px;
+        height: 27px
+    }
+
+    .trust-bar strong {
+        font-size: 11px
+    }
+
+    .trust-bar small {
+        font-size: 10px
+    }
+
+    .problems {
+        padding: 30px 0 20px
+    }
+
+    .problems h2,
+    .advantages h2,
+    .steps h2,
+    .faq-section h2 {
+        font-size: 25px
+    }
+
+    .section-sub {
+        font-size: 12px
+    }
+
+    .problem-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 11px
+    }
+
+    .problem-card {
+        min-height: 150px
+    }
+
+    .problem-card span.wa-label {
+        font-size: 11px;
+        max-width: 170px
+    }
+
+    .problem-card strong {
+        font-size: 14px
+    }
+
+    .advantages-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 23px
+    }
+
+    .master-photo {
+        height: 240px;
+        width: 100%
+    }
+
+    .advantages-content {
+        width: 100%
+    }
+
+    .advantage-points {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 19px 10px
+    }
+
+    .pricing-layout {
+        grid-template-columns: 1fr
+    }
+
+    .price-card,
+    .question-card {
+        min-height: 0
+    }
+
+    .price-card {
+        padding: 21px
+    }
+
+    .question-card {
+        min-height: 238px
+    }
+
+    .steps {
+        padding: 16px 0 24px
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+        gap: 10px
+    }
+
+    .step-card {
+        min-height: 82px
+    }
+
+    .step-arrow {
+        font-size: 22px;
+        line-height: 1;
+        transform: rotate(90deg)
+    }
+
+    .reviews-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px
+    }
+
+    .reviews-intro {
+        grid-column: 1/-1;
+        min-height: 115px
+    }
+
+    .reviews-intro h2 {
+        font-size: 24px;
+        margin: 7px 0
+    }
+
+    .review-card {
+        min-height: 185px
+    }
+
+    .faq-layout {
+        grid-template-columns: 1fr;
+        gap: 12px
+    }
+
+    .faq-intro p {
+        max-width: none
+    }
+
+    .final-row {
+        padding: 23px 20px;
+        flex-wrap: wrap;
+        gap: 14px
+    }
+
+    .final-logo {
+        width: 48px
+    }
+
+    .final-logo img {
+        width: 42px
+    }
+
+    .final-copy h2 {
+        font-size: 20px
+    }
+
+    .final-copy p {
+        font-size: 12px
+    }
+
+    .final-row .btn {
+        width: 100%
+    }
+
+    .footer {
+        padding-bottom: 87px
+    }
+
+    .footer-row {
+        font-size: 10px;
+        display: grid;
+        gap: 4px
+    }
+
+    .sticky-mobile {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 60;
+        background: #ffffffec;
+        backdrop-filter: blur(15px);
+        padding: 9px 16px max(9px, env(safe-area-inset-bottom));
+        box-shadow: 0 -6px 25px #071d3550
+    }
+
+    .sticky-mobile .btn {
+        width: 100%;
+        min-height: 43px
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .catalog-head {
+        display: block
+    }
+
+    .catalog-head h3 {
+        font-size: 19px
+    }
+
+    .catalog-head p {
+        margin-top: 8px
+    }
+}
+
+@media(max-width:420px) {
+    .container {
+        width: calc(100% - 28px)
+    }
+
+    .brand-img {
+        width: 37px;
+        height: 37px
+    }
+
+    .brand-words strong {
+        font-size: 15px
+    }
+
+    .brand-words small {
+        font-size: 8px
+    }
+
+    .hero-copy {
+        padding-top: 24px
+    }
+
+    .hero h1 {
+        font-size: 36px
+    }
+
+    .hero-features div {
+        font-size: 10px
+    }
+
+    .hero-features svg {
+        height: 25px;
+        width: 25px
+    }
+
+    .hero-description {
+        font-size: 16px
+    }
+
+    .hero-picture {
+        margin-inline: -14px;
+        width: calc(100% + 28px);
+        height: 245px
+    }
+
+    .hero-photo-badge {
+        font-size: 12px
+    }
+
+    .trust-bar {
+        padding: 6px
+    }
+
+    .trust-bar>div {
+        gap: 7px
+    }
+
+    .trust-bar strong {
+        font-size: 10px
+    }
+
+    .trust-bar small {
+        font-size: 9px
+    }
+
+    .problem-card {
+        padding: 15px 6px 10px
+    }
+
+    .advantage-points strong {
+        font-size: 12px
+    }
+
+    .advantage-points small {
+        font-size: 10px
+    }
+
+    .price-heading h2 {
+        font-size: 20px
+    }
+
+    .cost-line span {
+        font-size: 11px
+    }
+
+    .cost-line strong {
+        font-size: 13px
+    }
+
+    .question-copy {
+        width: 64%
+    }
+
+    .whatsapp-image {
+        width: 40%
+    }
+
+    .question-copy h2 {
+        font-size: 21px
+    }
+
+    .question-copy p {
+        font-size: 11px
+    }
+
+    .question-card .btn {
+        font-size: 11px;
+        padding: 8px
+    }
+
+    .reviews-row {
+        display: flex;
+        flex-direction: column
+    }
+
+    .review-card {
+        min-height: 140px
+    }
+
+    .reviews-intro {
+        min-height: 120px
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr
+    }
+}
+
+@media(prefers-reduced-motion:reduce) {
+    html {
+        scroll-behavior: auto
+    }
+
+    .btn,
+    .problem-card {
+        transition: none
+    }
+}
+
+@media(max-width:760px) {
+    .hero-photo-badge {
+        right: 9%;
+        bottom: 8%;
+        width: 51%;
+        min-height: 21%;
+        font-size: 12px;
+        padding: 9px
+    }
+}
